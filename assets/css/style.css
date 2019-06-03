@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+
+/*----------------------------------------------------------body*/
+body {
+    background-color: #4286f4;
+}
+/*----------------------------------------------------------header*/
+
+.nav {
+ text-decoration: none;
+ display: inline-block; 
+
+}
+
+.navbar {
+    width: 100%;
+    background-color: #a30404;
+    height: 100px;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+.navbar-brand {
+   margin-top: 0;
+   margin-bottom: 5px;
+   padding: 0;
+}
+
+.col {
+    padding: 0;
+}
+
+/*----------------------------------------------------------Section-Video*/
+.live-performance {
+    width: 100%;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 15px;
+    border: none;
+    
+}
+  
+    
+
+
+/*----------------------------------------------------------Colors*/
+
+/*----------------------------------------------------------Footer*/
+
+/*----------------------------------------------------------Special padding/margin/text*/
+
+/*----------------------------------------------------------Media Queries*/
