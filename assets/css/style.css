@@ -138,6 +138,15 @@ blockquote p {
   text-align: center;
 }
 
+.col-8 .tommy-para {
+    float: left;
+}
+
+.col-8 .tommy {
+    float: right;
+}
+
+/*----------------------------------------------------------Timeline*/
 
 
 
