@@ -23,20 +23,20 @@
 
                 <nav class="navbar">
                     <a class="navbar-brand hvr-glow" href="index.html">
-    <img src="assets/images/the-who-name-logo.png" width="90" height="90" alt="">
+    <img src="assets/images/the-who-name-logo.png" class="menu-text" width="90" height="90" padding="5px" alt="">
   </a>
 
                     <ul class="list-group-horizontal menu-list">
-                        <li class="list-inline-item menu-item">
-                            <a href="about.html" class=" hvr-glow menu-text">Home</a>
+                        <li class="list-inline-item">
+                            <a href="index.html" class=" hvr-glow menu-text">Home</a>
                         </li>
-                        <li class="list-inline-item menu-item">
+                        <li class="list-inline-item">
                             <a href="about.html" class="hvr-glow menu-text">About</a>
                         </li>
-                        <li class="list-inline-item menu-item">
+                        <li class="list-inline-item">
                             <a href="media.html" class="hvr-glow menu-text">Media</a>
                         </li>
-                        <li class="list-inline-item menu-item">
+                        <li class="list-inline-item">
                             <a href="booking.html" class="hvr-glow menu-text">Booking</a>
                         </li>
 
@@ -46,47 +46,69 @@
 
         </div>
     </div>
+    <section>
+        <div class="jumbotron jumbotron-fluid about-section">
+            <div class="container">
+                <h1 class="display-4">Fluid jumbotron</h1>
+                <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+            </div>
+        </div>
 
+
+    </section>
 
     <section>
         <div class="container-fluid">
             <div class="row">
-                <div class="col-12 video-link">
-                    <iframe class="live-performance" src="https://www.youtube.com/embed/KHwHs9RwXYw"></iframe>
+
+                <div class="embed-responsive embed-responsive-16by9 video-link">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/KHwHs9RwXYw" allowfullscreen></iframe>
                 </div>
-            </div>
-        </div>
-        </div>
+                </div>
+                </div>
+
+
+
     </section>
+
+
 
 
     <section>
         <div class="card-deck">
             <div class="card">
-                <img class="card-img-top" src="assets/images/the-who-corporate.jpg" alt="Corporate Live Picture">
+                <img class="card-img-top" src="assets/images/the-who-card.jpg" alt="Corporate Live Picture">
                 <div class="card-body">
                     <h5 class="card-title">Corporate Event</h5>
                     <p class="card-text">I still can't believe the Who played at my Xmas party. It was amazing!
                         <br><span>John Bon Jovi, Dublin</span></p>
+                   <a href="booking.html" alt="contact section">
                     <button type="button" class="btn btn-light blurb-button">BOOK NOW!</button>
+                    </a>
                 </div>
             </div>
             <div class="card">
-                <img class="card-img-top" src="assets/images/the-who-wedding.jpg" alt="Wedding Live Picture">
+                <img class="card-img-top" src="assets/images/the-who-card-2.jpg" alt="Wedding Live Picture">
                 <div class="card-body">
                     <h5 class="card-title">Wedding</h5>
                     <p class="card-text">The best day of my life made even better. What a performance!!
                         <br><span>Jon Snow, Belfast</span></p>
+                    <a href="booking.html" alt="contact section">
                     <button type="button" class="btn btn-light blurb-button">BOOK NOW!</button>
+                    </a>
                 </div>
             </div>
             <div class="card">
-                <img class="card-img-top" src="assets/images/the-who-birthday.jpg" alt="Birthday Live Picture">
+                <img class="card-img-top" src="assets/images/the-who-card-3.jpg" alt="Birthday Live Picture">
                 <div class="card-body">
                     <h5 class="card-title">Birthday</h5>
                     <p class="card-text">What a bloody birthday present. The Who made my 50th unforgettable.
                         <br><span>John Wick, London</span></p>
+                        <a href="booking.html" alt="contact section">
+                            
                     <button type="button" class="btn btn-light blurb-button">BOOK NOW!</button>
+                  
+                    </a>
                 </div>
             </div>
         </div>
@@ -97,11 +119,15 @@
 
     <footer class="container-fluid">
         <div id="footer-details" class="row">
+            <div class="col-md-6 d-inline">
+                <a href="index.html"><img src="../assets/images/the-who-logo-noname.png"class="footer-logo" alt="Home"></a>
+<p class="d-inline copyright"><i class="fa fa-copyright d-inline copyright-icon"></i>Copyright The Who. All rights reserved.</p>
+</div>
           
-                
-             
-                
-                <ul class="list-inline social-links">
+
+
+            <div class="col-md-6">
+                <ul class="list-inline social-links float-right">
                     <li class="list-inline-item social-icons">
                         <a target="_blank" href="https://www.facebook.com/">
                             <i class="fa fa-facebook"aria-hidden="true"></i>
@@ -123,7 +149,8 @@
                     </li>
                 </ul>
             </div>
-       
+        </div>
+
 
     </footer>
 

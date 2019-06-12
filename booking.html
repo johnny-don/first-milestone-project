@@ -19,90 +19,109 @@
             <div class="col">
 
                 <nav class="navbar">
-                    <a class="navbar-brand" href="index.html">
+                    <a class="navbar-brand hvr-glow" href="index.html">
     <img src="assets/images/the-who-name-logo.png" width="90" height="90" alt="">
   </a>
-                    <ul class="nav list-inline list-group-horizontal">
-                        <li class="list-inline-item ">Menu
-                            <a href="&"></a>
-                        </li>
-                        <li class="list-inline-item">About
-                            <a href="&"></a>
-                        </li>
-                        <li class="list-inline-item">Media + Gallery
 
+                    <ul class="list-group-horizontal menu-list">
+                        <li class="list-inline-item menu-item">
+                            <a href="index.html" class=" hvr-glow menu-text">Home</a>
                         </li>
-                        <li class="list-inline-item">Book
-                            <a href="&"></a>
+                        <li class="list-inline-item menu-item">
+                            <a href="about.html" class="hvr-glow menu-text">About</a>
+                        </li>
+                        <li class="list-inline-item menu-item">
+                            <a href="media.html" class="hvr-glow menu-text">Media</a>
+                        </li>
+                        <li class="list-inline-item menu-item">
+                            <a href="booking.html" class="hvr-glow menu-text">Booking</a>
                         </li>
 
                     </ul>
                 </nav>
             </div>
+
         </div>
     </div>
 
-    <section>
-        <form>
-  <div class="form-row">
-    <div class="form-group col-md-6">
-      <label for="inputEmail4">First Name</label>
-      <input type="text" class="form-control" id="inputname" placeholder="First Name">
-    </div>
-    <div class="form-group col-md-6">
-      <label for="inputPassword4">Surname</label>
-      <input type="text" class="form-control" id="inputsurname" placeholder="Surname">
-    </div>
-  </div>
-  <div class="form-group">
-    <label for="inputAddress">Address</label>
-    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-  </div>
-  <div class="form-group">
-    <label for="inputAddress2">Address 2</label>
-    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-  </div>
-  <div class="form-row">
-    <div class="form-group col-md-6">
-      <label for="inputCity">City</label>
-      <input type="text" class="form-control" id="inputCity">
-    </div>
-    <div class="form-group col-md-4">
-      <label for="inputState">State</label>
-       <input type="text" class="form-control" id="state" placeholder="State">
-    </div>
-    <div class="form-group col-md-2">
-      <label for="inputZip">Zip</label>
-      <input type="text" class="form-control" id="inputZip">
-    </div>
-  </div>
-  <div class="form-group">
-    <div class="form-check">
-      <input class="form-check-input" type="checkbox" id="gridCheck">
-      <label class="form-check-label" for="gridCheck">
-        Wedding
-      </label>
-    </div>
-     <div class="form-check">
-      <input class="form-check-input" type="checkbox" id="gridCheck">
-      <label class="form-check-label" for="gridCheck">
+
+    <section class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <div class="content-heading">
+                    <h2 class=" content-heading uppercase text-center">BOOKING FORM</h2>
+
+                </div>
+
+                <div class="center-form">
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="inputEmail4">First Name</label>
+                            <input type="text" class="form-control" id="inputname" placeholder="First Name">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="inputPassword4">Last Name</label>
+                            <input type="text" class="form-control" id="inputlastname" placeholder="Last Name">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="form-group col-md-4 date-form">
+                            <label for="inputState">Date</label>
+                            <input type="date" class="form-control date-form" id="date" placeholder="dd/mm/yyyy" style="padding-left: 10px;">
+                        </div>
+                        <label for="inputAddress">Address</label>
+                        <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                    </div>
+                    <div class="form-group">
+                        <label for="inputAddress2">Address 2</label>
+                        <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="inputCity">City</label>
+                            <input type="text" class="form-control" id="inputCity">
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="inputState">State</label>
+                            <input type="text" class="form-control" id="state" placeholder="State">
+                        </div>
+                        <div class="form-group col-md-2">
+                            <label for="inputZip">Zip</label>
+                            <input type="text" class="form-control" id="inputZip">
+                        </div>
+
+                    </div>
+
+                    <div class="form-group">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="gridCheck">
+                            <label class="form-check-label" for="gridCheck">
+                             Wedding
+                       </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="gridCheck">
+                            <label class="form-check-label" for="gridCheck">
         Birthday
       </label>
-    </div>
-     <div class="form-check">
-      <input class="form-check-input" type="checkbox" id="gridCheck">
-      <label class="form-check-label" for="gridCheck">
-        Other
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="gridCheck">
+                            <label class="form-check-label" for="gridCheck">
+        Corporate
       </label>
-    </div>
-  </div>
-   <div class="form-group">
-    <label for="exampleFormControlTextarea1">Example textarea</label>
-    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-  </div>
-  <button type="submit" class="btn btn-primary">Sign in</button>
-  
-</form>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Description</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-light blurb-button">Send</button>
+                </div>
+            </div>
+        </div>
+        </form>
 
 
 
@@ -110,51 +129,41 @@
 
     </section>
 
-    <footer>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-sm-4">
-                    <h5 class="uppercase general-sub">Social</h5>
-                    <ul class="list-inline social-links">
-                        <li class="list-inline-item">
-                            <a target="_blank" href="#">
-                            <i class="fa fa-facebook" aria-hidden="true"></i>
+    <footer class="container-fluid">
+        <div id="footer-details" class="row">
+            <div class="col-md-3">
+                <img src="../assets/images/the-who-logo-noname.png" class="footer-logo" alt="Logo">
+            </div>
+
+
+            <div class="col-md-9">
+                <ul class="list-inline social-links float-right">
+                    <li class="list-inline-item social-icons">
+                        <a target="_blank" href="https://www.facebook.com/">
+                            <i class="fa fa-facebook"aria-hidden="true"></i>
                             <span class="sr-only">Facebook</span>
                         </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a target="_blank" href="#">
-                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://twitter.com/">
+                            <i class="fa fa-twitter"aria-hidden="true"></i>
                             <span class="sr-only">Twitter</span>
                         </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a target="_blank" href="#">
-                            <i class="fa fa-linkedin" aria-hidden="true"></i>
-                            <span class="sr-only">LinkedIn</span>
-                        </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a target="_blank" href="#">
-                            <i class="fa fa-pinterest" aria-hidden="true"></i>
-                            <span class="sr-only">Pinterest</span>
-                        </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a target="_blank" href="#">
-                            <i class="fa fa-instagram" aria-hidden="true"></i>
-                            <span class="sr-only">Instagram</span>
-                        </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a target="_blank" href="#">
+                    </li>
+
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://www.youtube.com/">
                             <i class="fa fa-youtube" aria-hidden="true"></i>
                             <span class="sr-only">YouTube</span>
                         </a>
-                        </li>
-                    </ul>
-                </div>
+                    </li>
+                </ul>
             </div>
         </div>
 
+
     </footer>
+
+</body>
+
+</html>

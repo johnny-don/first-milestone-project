@@ -7,7 +7,26 @@ body {
     background-color: #ffffff;
 }
 
-/*----------------------------------------------------------header*/
+/*----------------------------------------------------------Booking Form*/
+
+.center-form {
+    padding: 10px;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 200px;
+    max-width: 70%;
+    background-color: #B0B0D1;
+}
+
+.booking-button {
+    background-color: #ff4d4d;
+    margin: 0 auto;
+}
+
+.booking-button:hover {
+    background-color: #e2e6ea;
+}
+
 
 
 
@@ -26,18 +45,26 @@ body {
 }
 
 ul li .menu-text {
+    margin: 5px;
     text-decoration: none;
     color: black;
     font-family: 'Merriweather', serif;
     text-transform: uppercase;
-    font-weight: 300;
+    font-weight: 600;
     letter-spacing: 0.1em;
+    padding: 10px;
+    transition-duration: 1.5s
+
+
 }
+
+
 
 .navbar-brand {
     margin-top: 0;
     margin-bottom: 5px;
     padding: 0;
+    transition-duration: 1.5s;
 }
 
 .col {
@@ -47,19 +74,24 @@ ul li .menu-text {
 .menu-list {
     background-color: #ff4d4d;
     margin-right: 50px;
-    
+
 }
 
 .menu-item {
     margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
     width: 50px;
     height: 50px;
     margin: 15px;
-    padding-top: 20px;
+
+    padding: 20px;
 }
 
-.menu.text:hover {
-    color: #ffffff;
+ul li .menu.text:hover {
+    color: #ff4d4d;
+    padding: 10px;
+    
 }
 
 
@@ -72,15 +104,21 @@ ul li .menu-text {
     width: 100%;
     height: 500px;
     margin: 0 auto;
-  
+
     border: none;
 
 }
 
 .video-link {
-    margin: 0 auto;
-    margin-top: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 50%;
     margin-bottom: 100px;
+    margin-top: 100px;
+
+
 }
 
 
@@ -88,18 +126,19 @@ ul li .menu-text {
 
 /*----------------------------------------------------------Section-blurbs*/
 
-
 .card-title {
     font-family: "Roboto", sans-serif;
     text-transform: uppercase;
     letter-spacing: 0.1em;
+    font-weight: 500;
 }
 
 .card-text {
     font-family: 'Merriweather', serif;
-    
-    
+
+
 }
+
 .card-text span {
     font-style: italic;
     line-height: 1.6;
@@ -114,48 +153,64 @@ ul li .menu-text {
 }
 
 .card-deck {
-  margin: 0 auto;
-  margin-bottom: 100px;
+    margin: 0 auto;
+    margin-bottom: 300px;
+    margin-left: 18px;
+    margin-right: 18px;
 }
 
 
 
-.blurb-button  {
+.blurb-button {
     margin: 0 auto;
-    background-color: #ff4d4d; 
-  
+    background-color: #ff4d4d;
+
 }
 
 /*----------------------------------------------------------Music*/
+
 .spotify-playlists {
     display: block;
 }
 
 .music-heading {
     display: inline-block;
+    text-align: center;
+}
+
+/*----------------------------------------------------------jumbotron*/
+
+.about-section {
+    background-image: url("/images/the-who-gallery-jack.jpg");
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+    background-color: #B0B0D1;
+
 }
 
 /*----------------------------------------------------------photos*/
 
 .photo-gallery {
-  margin: 5px;
-  border: 1px solid #ccc;
-  float: left;
-  width: 180px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
 }
 
 .photo-gallery:hover {
-  border: 1px solid #777;
+    border: 1px solid #777;
 }
 
 .photo-gallery img {
-  width: 100%;
-  height: auto;
+    width: 100%;
+    height: auto;
 }
 
- .desc {
-  padding: 15px;
-  text-align: center;
+.desc {
+    padding: 15px;
+    text-align: center;
 }
 
 
@@ -167,10 +222,11 @@ ul li .menu-text {
     margin-left: 5px;
     margin-right: 5px;
     margin-bottom: 15px;
-    
+
 }
+
 .album-description {
-  width: 70%;
+    width: 70%;
 }
 
 .album-images {
@@ -182,10 +238,12 @@ ul li .menu-text {
 /*----------------------------------------------------------Footer*/
 
 .social-links li a i {
-    margin-left: 50px;
-    margin-top: 20px;
-    width: 60px;
-    height: 60px;
+    text-align: right;
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-right: 10px;
+    width: 32px;
+    height: 32px;
     padding: 20px 0;
     border-radius: 50%;
     font-size: 20px;
@@ -206,12 +264,63 @@ ul li .menu-text {
 
 #footer-details {
     background-color: #ff4d4d;
+    height: 100px;
+
+}
+
+.footer-logo {
+    margin-top: 10px;
+    margin-left: 10px;
     height: 80px;
-   
+    width: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.copyright {
+    margin-left: 5px;
+
+    margin-top: 100px;
+    font-family: brandon-grotesque, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    padding: 5px;
+    position: relative;
+    top: 20px;
+    
+}
+
+.copyright-icon {
+    margin-right: 3px;
+}
+
+
+/*----------------------------------------------------------Special padding/margin/text*/
+
+.date-form {
+    padding-left: 0;
+}
+
+.content-heading {
+    margin: 0 auto;
+    margin-top: 80px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: xx-large;
+    letter-spacing: 0.1em;
+}
+
+.media-heading {
+    margin-bottom: 80px;
+}
+
+.music-playlist {
+    margin: 0 auto;
 }
 
 
 
-/*----------------------------------------------------------Special padding/margin/text*/
+
 
 /*----------------------------------------------------------Media Queries*/
