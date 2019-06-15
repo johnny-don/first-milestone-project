@@ -179,6 +179,7 @@ body {
 .spotify-playlist {
     margin: 50px;
     padding: 10px;
+    display: flex;
    
 }
 
@@ -219,8 +220,8 @@ body {
 .photo-gallery {
     margin: 5px;
     border: none;
-    float: left;
-    width: 180px;
+    margin: 0 auto;
+    width: 100px;
 }
 
 .photo-gallery:hover {
@@ -230,6 +231,7 @@ body {
 .photo-gallery img {
     width: 100%;
     height: auto;
+    display: inline-block;
 }
 
 .desc {
@@ -237,10 +239,7 @@ body {
     text-align: center;
 }
 
-.photo-gallery img {
-    width: 500px;
-    height: 250px;
-}
+
 
 .gallery-row {
     display: flex;
@@ -274,7 +273,58 @@ body {
 
 /*----------------------------------------------------------Footer*/
 
+.page-footer {
+    background-color: #ff4d4d;
+    height: auto;
+}
 
+.social-icons {
+    color: black;
+    margin: 15px;
+    font-weight: 500;
+    font-size: large;
+}
+
+.text-center {
+    text-align: center!important;
+    padding-top: 10px;
+    margin-bottom: 0;
+}
+
+.fa-youtube:before {
+   
+    font-size: x-large;
+}
+
+.fa-facebook:before {
+    
+    font-size: x-large;
+}
+
+.fa-twitter:before {
+   
+    font-size: x-large;
+}
+
+.social-links {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.social-links {
+    width: 50px;
+  height: 50px;
+    border-radius: 50%;
+    background-color: transparent;
+    margin: 10px;
+    transition-duration: 1.5s
+    
+}
+
+.social-links:hover {
+    background-color: #B0B0D1;
+}
 
 
 
@@ -329,56 +379,63 @@ body {
 
 /*----------------------------------------------------------Media Queries*/
 
-.page-footer {
-    background-color: #ff4d4d;
-    height: auto;
+@media (max-width: 500px) {
+  .video-link {
+      width: 80%;
+      height: 80%;
+  }
+
+ 
 }
 
-.social-icons {
-    color: black;
-    margin: 15px;
-    font-weight: 500;
-    font-size: large;
-}
-
-.text-center {
-    text-align: center!important;
-    padding-top: 10px;
-    margin-bottom: 0;
-}
-
-.fa-youtube:before {
-   
-    font-size: x-large;
-}
-
-.fa-facebook:before {
-    
-    font-size: x-large;
-}
-
-.fa-twitter:before {
-   
-    font-size: x-large;
-}
-
-.social-links {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-}
-
-.social-links {
-    width: 50px;
-  height: 50px;
-    border-radius: 50%;
-    background-color: transparent;
-    margin: 10px;
-    transition-duration: 1.5s
+@media (min-width: 768px) {
+     .spare-playlist {
+        display: none;
+        display: hidden;
+    }
     
 }
 
-.social-links:hover {
-    background-color: #B0B0D1;
+@media (max-width: 575.98px) { ... }
+
+// Small devices (landscape phones, less than 768px)
+
+@media (max-width: 767.98px) { 
+    .photo-gallery {
+        display: flex;
+        width: 100px;
+        
+        
+    }
+    
+
+    
 }
+
+@media (max-width: 1266px) {
+    .spare-playlist {
+        display: none;
+    }
+    
+    .spotify-playlist {
+        margin: 0 auto;
+        text-align: center;
+    }
+}
+
+@media (max-width: 425px) {
+    .photo-gallery {
+        display: block;
+        width: 100%;
+    }
+    
+ 
+    
+    
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) { ... }
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) { ... }
 
