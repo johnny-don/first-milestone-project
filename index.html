@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" type="text/css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
     <link rel="stylesheet" href="../assets/css/style.css" />
@@ -17,40 +18,35 @@
 <body>
 
 
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col">
-
-                <nav class="navbar">
-                    <a class="navbar-brand hvr-glow" href="index.html">
-    <img src="assets/images/the-who-name-logo.png" class="menu-text" width="90" height="90" padding="5px" alt="">
+    <nav class="navbar navbar-expand-sm navbar-menu navbar-inverse">
+        <div class="container-fluid">
+            <div class="row navbar-row">
+                <a class="navbar-brand hvr-glow" href="index.html">
+    <img src="../assets/images/the-who-name-logo.png" class="menu-text hvr-glow" width="90" height="90" padding="5px" alt="Logo">
   </a>
+                <button class="navbar-toggler menu-button" data-toggle="collapse" data-target="#mainNav" aria- controls="navbarNavDropdown">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+                <div class="collapse navbar-collapse" id="main">
+                    <div class="navbar-nav list-inline-block">
 
-                    <ul class="list-group-horizontal menu-list">
-                        <li class="list-inline-item">
-                            <a href="index.html" class=" hvr-glow menu-text">Home</a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="about.html" class="hvr-glow menu-text">About</a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="media.html" class="hvr-glow menu-text">Media</a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="booking.html" class="hvr-glow menu-text">Booking</a>
-                        </li>
-
-                    </ul>
-                </nav>
+                        <a class="nav-item nav-link hvr-glow menu-text" href="index.html">Home</a>
+                        <a class="nav-item nav-link hvr-glow menu-text" href="media.html">Media</a>
+                        <a class="nav-item nav-link hvr-glow menu-text" href="contact.html">Contact</a>
+                    </div>
+                </div>
             </div>
-
         </div>
+    </nav>
     </div>
+
     <section>
         <div class="jumbotron jumbotron-fluid about-section">
             <div class="container">
-                <h1 class="display-4">Fluid jumbotron</h1>
-                <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+                <h1 class="display-4 introduction-heading">who are you?</h1>
+                <p class="introduction lead">Few rock & roll bands were riddled with as many contradictions as the Who. All four members had wildly different personalities, as their notorious live performances demonstrated: Keith Moon fell over his drum kit while Pete Townshend leaped
+                    into the air with his guitar, spinning his right hand in exaggerated windmills. Vocalist Roger Daltrey prowled the stage as bassist John Entwistle stood silent, the eye of the hurricane. They clashed frequently, but these frictions
+                    resulted in half a century's worth of remarkable music. Although it took a while to find their audience, from the late '60s until the present day, the Who have rivaled the Rolling Stones as a live act and in album sales becoming one of the most celebrated band in the history of Rock and Roll</p>
             </div>
         </div>
 
@@ -64,8 +60,8 @@
                 <div class="embed-responsive embed-responsive-16by9 video-link">
                     <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/KHwHs9RwXYw" allowfullscreen></iframe>
                 </div>
-                </div>
-                </div>
+            </div>
+        </div>
 
 
 
@@ -82,9 +78,9 @@
                     <h5 class="card-title">Corporate Event</h5>
                     <p class="card-text">I still can't believe the Who played at my Xmas party. It was amazing!
                         <br><span>John Bon Jovi, Dublin</span></p>
-                   <a href="booking.html" alt="contact section">
-                    <button type="button" class="btn btn-light blurb-button">BOOK NOW!</button>
-                    </a>
+                    <div class="text-center">
+                        <button type="button" class="btn btn-light blurb-button"><a href="contact.html" class="book-link">BOOK NOW!</a></button>
+                    </div>
                 </div>
             </div>
             <div class="card">
@@ -93,9 +89,9 @@
                     <h5 class="card-title">Wedding</h5>
                     <p class="card-text">The best day of my life made even better. What a performance!!
                         <br><span>Jon Snow, Belfast</span></p>
-                    <a href="booking.html" alt="contact section">
-                    <button type="button" class="btn btn-light blurb-button">BOOK NOW!</button>
-                    </a>
+                    <div class="text-center">
+                        <button type="button" class="btn btn-light blurb-button"><a href="contact.html" class="book-link">BOOK NOW!</a></button>
+                    </div>
                 </div>
             </div>
             <div class="card">
@@ -104,11 +100,9 @@
                     <h5 class="card-title">Birthday</h5>
                     <p class="card-text">What a bloody birthday present. The Who made my 50th unforgettable.
                         <br><span>John Wick, London</span></p>
-                        <a href="booking.html" alt="contact section">
-                            
-                    <button type="button" class="btn btn-light blurb-button">BOOK NOW!</button>
-                  
-                    </a>
+                    <div class="text-center">
+                        <button type="button" class="btn btn-light blurb-button"><a href="contact.html" class="book-link">BOOK NOW!</a></button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -117,44 +111,48 @@
 
 
 
-    <footer class="container-fluid">
-        <div id="footer-details" class="row">
-            <div class="col-md-6 d-inline">
-                <a href="index.html"><img src="../assets/images/the-who-logo-noname.png"class="footer-logo" alt="Home"></a>
-<p class="d-inline copyright"><i class="fa fa-copyright d-inline copyright-icon"></i>Copyright The Who. All rights reserved.</p>
-</div>
-          
+    <footer class="page-footer font-small">
 
+        <!-- Footer Elements -->
+        <div class="container">
 
-            <div class="col-md-6">
-                <ul class="list-inline social-links float-right">
-                    <li class="list-inline-item social-icons">
-                        <a target="_blank" href="https://www.facebook.com/">
-                            <i class="fa fa-facebook"aria-hidden="true"></i>
+            <!-- Social buttons -->
+            <ul class="list-unstyled list-inline text-center">
+
+                <li class="list-inline-item social-links">
+                    <a target="_blank" href="https://www.facebook.com/">
+                            <i class="fa fa-facebook social-icons"aria-hidden="true"></i>
                             <span class="sr-only">Facebook</span>
                         </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a target="_blank" href="https://twitter.com/">
-                            <i class="fa fa-twitter"aria-hidden="true"></i>
+                </li>
+
+                <li class="list-inline-item social-links">
+                    <a target="_blank" href="https://twitter.com/">
+                            <i class="fa fa-twitter social-icons"aria-hidden="true"></i>
                             <span class="sr-only">Twitter</span>
                         </a>
-                    </li>
-
-                    <li class="list-inline-item">
-                        <a target="_blank" href="https://www.youtube.com/">
-                            <i class="fa fa-youtube" aria-hidden="true"></i>
+                </li>
+                <li class="list-inline-item social-links">
+                    <a target="_blank" href="https://www.youtube.com/">
+                            <i class="fa fa-youtube social-icons" aria-hidden="true"></i>
                             <span class="sr-only">YouTube</span>
                         </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
+                </li>
+            </ul>
+            <!-- Social buttons -->
 
+        </div>
+        <!-- Footer Elements -->
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2019 Copyright:
+            <a href="https://www.thewho.com/"> thewho.com</a>
+        </div>
+        <!-- Copyright -->
 
     </footer>
 
-
 </body>
+
 
 </html>

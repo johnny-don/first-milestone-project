@@ -15,41 +15,27 @@
 
 <body>
 
-    <header>
-
-
-
-
-    </header>
-
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col">
-
-                <nav class="navbar">
-                    <a class="navbar-brand hvr-glow" href="index.html">
-    <img src="assets/images/the-who-name-logo.png" width="90" height="90" alt="">
+    <nav class="navbar navbar-expand-sm navbar-menu navbar-inverse">
+        <div class="container-fluid">
+          <div class="row navbar-row">
+  <a class="navbar-brand hvr-glow" href="index.html">
+    <img src="../assets/images/the-who-name-logo.png" class="menu-text hvr-glow" width="90" height="90" padding="5px" alt="Logo">
   </a>
-
-                    <ul class="list-group-horizontal menu-list">
-                        <li class="list-inline-item menu-item">
-                            <a href="index.html" class=" hvr-glow menu-text">Home</a>
-                        </li>
-                        <li class="list-inline-item menu-item">
-                            <a href="about.html" class="hvr-glow menu-text">About</a>
-                        </li>
-                        <li class="list-inline-item menu-item">
-                            <a href="media.html" class="hvr-glow menu-text">Media</a>
-                        </li>
-                        <li class="list-inline-item menu-item">
-                            <a href="booking.html" class="hvr-glow menu-text">Booking</a>
-                        </li>
-
-                    </ul>
-                </nav>
+            <button class="navbar-toggler menu-button" data-toggle="collapse" data-target="#navbarNavDropdown"  aria-
+              controls="navbarNavDropdown">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <div class="navbar-nav list-inline-block">
+                                   
+                    <a class="nav-item nav-link hvr-glow menu-text" href="index.html">Home</a>
+                    <a class="nav-item nav-link hvr-glow menu-text" href="media.html">Media</a>
+                    <a class="nav-item nav-link hvr-glow menu-text" href="contact.html">Contact</a>
+                </div>
+</div>
             </div>
-
         </div>
+    </nav>
     </div>
 
     <section>
@@ -59,18 +45,19 @@
         </div>
         </div>
 
-        <div class="container">
-            <div class="row">
-                <div class="col-12 music-playlist"></div>
-                <div class="col-4"><iframe src="https://open.spotify.com/embed/album/2BNE8QBnuRzUJWDJgStahq" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></div>
-                <div class="col-4"><iframe src="https://open.spotify.com/embed/user/the_who_umc/playlist/3Nl4ANps1rqsC7M6kDUVxi" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></div>
-                <div class="w-100"></div>
-                <div class="col-6"><iframe src="https://open.spotify.com/embed/album/6Oc6Ok1Oawu8lRkjmD4mXy" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></div>
-                <div class="col-6"><iframe src="https://open.spotify.com/embed/album/1e82lOsXd5gM28gU7C3aB7" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></div>
-</div>
-            </div>
+        <div class="d-flex justify-content-center">
+           
+                
+                <div class="spotify-playlist"><iframe src="https://open.spotify.com/embed/album/3ZesvjQIvTxjOTiYu3xmUb" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></div>
+                <div class="spotify-playlist"><iframe src="https://open.spotify.com/embed/user/the_who_umc/playlist/3Nl4ANps1rqsC7M6kDUVxi" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></div>
+               <div class="spotify-playlist"><iframe src="https://open.spotify.com/embed/album/2BNE8QBnuRzUJWDJgStahq" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></div>
+                </div>
+                <div class="d-flex justify-content-center">
+                <div class="spotify-playlist"><iframe src="https://open.spotify.com/embed/album/6Oc6Ok1Oawu8lRkjmD4mXy" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></div>
+                <div class="spotify-playlist"><iframe src="https://open.spotify.com/embed/album/7G01eFZdWjX2jR11fpfe0t" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></div>
+                <div class="spotify-playlist"><iframe src="https://open.spotify.com/embed/album/1SCBhdgoRZDnGNyUafyNJC" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></div>
         </div>
-        </div>
+      
 
 
 
@@ -79,91 +66,100 @@
         <h1 class="content-heading media-heading text-center">GALLERY</h1>
 
         <div class="container-fluid">
-            <div class="row">
+            <div class="row gallery-row">
                 <div class="col photo-gallery">
-                    <a target="_blank" href="../assets/images/the-who-gallery-band.jpg">
-    <img src="../assets/images/the-who-gallery-band.jpg" alt="group" width="600" height="400">
+                    <a target="_blank" href="../assets/images/the-who-gallery-4.jpg">
+    <img src="../assets/images/the-who-gallery-4.jpg" alt="group" class="img-thumbnail hvr-grow" width="400" height="400">
   </a>
-                    <div class="desc">Add a description of the image here</div>
+                    <div class="desc image-description">The early days</div>
                 </div>
 
                 <div class="col photo-gallery">
-                    <a target="_blank" href="../assets/images/the-who-gallery-duo.jpg">
-    <img src="../assets/images/the-who-gallery-duo.jpg" alt="duo" width="600" height="400">
+                    <a target="_blank" href="../assets/images/the-who-gallery-5.jpg">
+    <img src="../assets/images/the-who-gallery-5.jpg" alt="union jack" class="img-thumbnail hvr-grow" width="400" height="400">
   </a>
-                    <div class="desc">Add a description of the image here</div>
+                    <div class="desc image-description">The Kids are Alright</div>
                 </div>
 
                 <div class="col photo-gallery">
-                    <a target="_blank" href="../assets/images/the-who-gallery-jack.jpg">
-    <img src="../assets/images/the-who-gallery-jack.jpg" alt="union jack" width="600" height="400">
+                    <a target="_blank" href="../assets/images/the-who-gallery-3 (2).jpg">
+    <img src="../assets/images/the-who-gallery-3 (2).jpg" alt="live smoke" class="img-thumbnail hvr-grow" width="400" height="400">
   </a>
-                    <div class="desc">Add a description of the image here</div>
+                    <div class="desc image-description">The original foursome. Pete Townshend, Keith Moon, Roger Daltrey and Doug Sandom (left to right)</div>
                 </div>
             </div>
         </div>
 
         <div class="container-fluid">
-            <div class="row">
+            <div class="row gallery-row">
                 <div class="col photo-gallery">
-                    <a target="_blank" href="../assets/images/the-who-gallery-live.jpg">
-    <img src="../assets/images/the-who-gallery-new.jpg" alt="live" width="600" height="400">
+                    <a target="_blank" href="../assets/images/the-who-gallery-1.jpg">
+    <img src="../assets/images/the-who-gallery-1.jpg" alt="live" class="img-thumbnail hvr-grow" width="400" height="400">
   </a>
-                    <div class="desc">Add a description of the image here</div>
+                    <div class="desc image-description">Baba O'Reilly live</div>
                 </div>
 
                 <div class="col photo-gallery">
-                    <a target="_blank" href="../assets/images/the-who-gallery-new.jpg">
-    <img src="../assets/images/the-who-gallery-new.jpg" alt="recent performance" width="600" height="400">
+                    <a target="_blank" href="../assets/images/the-who-gallery-2.jpg">
+    <img src="../assets/images/the-who-gallery-2.jpg" alt="old group" class="img-thumbnail hvr-grow" width="600" height="400">
   </a>
-                    <div class="desc">Add a description of the image here</div>
+                    <div class="desc image-description">Pete Townshend, Roger Daltrey and Kenney Jones performing live at the O2 in London</div>
                 </div>
                 <div class="col photo-gallery">
-                    <a target="_blank" href="../assets/images/the-who-gallery-sleep.jpg">
-    <img src="../assets/images/the-who-gallery-sleep.jpg" alt="sleeping" width="600" height="400">
+                    <a target="_blank" href="../assets/images/the-who-gallery-6.jpg">
+    <img src="../assets/images/the-who-gallery-6.jpg" alt="live performance" class="img-thumbnail hvr-grow" width="400" height="400">
   </a>
-                    <div class="desc">Add a description of the image here</div>
+                    <div class="desc image-description">Pete Townshend and Roger Daltrey performing live at Wembley</div>
                 </div>
             </div>
         </div>
 
     </section>
+    
+ 
 
 
-    <footer class="container-fluid">
-        <div id="footer-details" class="row">
-            <div class="col-md-3">
-                <img src="../assets/images/the-who-logo-noname.png" class="footer-logo" alt="Logo">
-            </div>
+<footer class="page-footer font-small">
 
+  <!-- Footer Elements -->
+  <div class="container">
 
-            <div class="col-md-9">
-                <ul class="list-inline social-links float-right">
-                    <li class="list-inline-item social-icons">
+    <!-- Social buttons -->
+    <ul class="list-unstyled list-inline text-center">
+    
+        <li class="list-inline-item social-links">
                         <a target="_blank" href="https://www.facebook.com/">
-                            <i class="fa fa-facebook"aria-hidden="true"></i>
+                            <i class="fa fa-facebook social-icons"aria-hidden="true"></i>
                             <span class="sr-only">Facebook</span>
                         </a>
                     </li>
-                    <li class="list-inline-item">
+    
+        <li class="list-inline-item social-links">
                         <a target="_blank" href="https://twitter.com/">
-                            <i class="fa fa-twitter"aria-hidden="true"></i>
+                            <i class="fa fa-twitter social-icons"aria-hidden="true"></i>
                             <span class="sr-only">Twitter</span>
                         </a>
                     </li>
-
-                    <li class="list-inline-item">
+     <li class="list-inline-item social-links">
                         <a target="_blank" href="https://www.youtube.com/">
-                            <i class="fa fa-youtube" aria-hidden="true"></i>
+                            <i class="fa fa-youtube social-icons" aria-hidden="true"></i>
                             <span class="sr-only">YouTube</span>
                         </a>
                     </li>
-                </ul>
-            </div>
-        </div>
+    </ul>
+    <!-- Social buttons -->
 
+  </div>
+  <!-- Footer Elements -->
 
-    </footer>
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2019 Copyright:
+    <a href="https://www.thewho.com/"> thewho.com</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+
 
 </body>
 

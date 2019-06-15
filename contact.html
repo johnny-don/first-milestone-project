@@ -14,34 +14,27 @@
 </head>
 
 <body>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col">
-
-                <nav class="navbar">
-                    <a class="navbar-brand hvr-glow" href="index.html">
-    <img src="assets/images/the-who-name-logo.png" width="90" height="90" alt="">
+    <nav class="navbar navbar-expand-sm navbar-menu navbar-inverse">
+        <div class="container-fluid">
+          <div class="row navbar-row">
+  <a class="navbar-brand hvr-glow" href="index.html">
+    <img src="../assets/images/the-who-name-logo.png" class="menu-text hvr-glow" width="90" height="90" padding="5px" alt="Logo">
   </a>
-
-                    <ul class="list-group-horizontal menu-list">
-                        <li class="list-inline-item menu-item">
-                            <a href="index.html" class=" hvr-glow menu-text">Home</a>
-                        </li>
-                        <li class="list-inline-item menu-item">
-                            <a href="about.html" class="hvr-glow menu-text">About</a>
-                        </li>
-                        <li class="list-inline-item menu-item">
-                            <a href="media.html" class="hvr-glow menu-text">Media</a>
-                        </li>
-                        <li class="list-inline-item menu-item">
-                            <a href="booking.html" class="hvr-glow menu-text">Booking</a>
-                        </li>
-
-                    </ul>
-                </nav>
+            <button class="navbar-toggler menu-button" data-toggle="collapse" data-target="#navbarNavDropdown"  aria-
+              controls="navbarNavDropdown">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <div class="navbar-nav list-inline-block">
+                                   
+                    <a class="nav-item nav-link hvr-glow menu-text" href="index.html">Home</a>
+                    <a class="nav-item nav-link hvr-glow menu-text" href="media.html">Media</a>
+                    <a class="nav-item nav-link hvr-glow menu-text" href="contact.html">Contact</a>
+                </div>
+</div>
             </div>
-
         </div>
+    </nav>
     </div>
 
 
@@ -117,7 +110,9 @@
                         <label for="exampleFormControlTextarea1">Description</label>
                         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                     </div>
+                    <div class="button-holder text-center">
                     <button type="submit" class="btn btn-light blurb-button">Send</button>
+                    </div> 
                 </div>
             </div>
         </div>
@@ -129,40 +124,46 @@
 
     </section>
 
-    <footer class="container-fluid">
-        <div id="footer-details" class="row">
-            <div class="col-md-3">
-                <img src="../assets/images/the-who-logo-noname.png" class="footer-logo" alt="Logo">
-            </div>
+<footer class="page-footer font-small">
 
+  <!-- Footer Elements -->
+  <div class="container">
 
-            <div class="col-md-9">
-                <ul class="list-inline social-links float-right">
-                    <li class="list-inline-item social-icons">
+    <!-- Social buttons -->
+    <ul class="list-unstyled list-inline text-center">
+    
+        <li class="list-inline-item social-links">
                         <a target="_blank" href="https://www.facebook.com/">
-                            <i class="fa fa-facebook"aria-hidden="true"></i>
+                            <i class="fa fa-facebook social-icons"aria-hidden="true"></i>
                             <span class="sr-only">Facebook</span>
                         </a>
                     </li>
-                    <li class="list-inline-item">
+    
+        <li class="list-inline-item social-links">
                         <a target="_blank" href="https://twitter.com/">
-                            <i class="fa fa-twitter"aria-hidden="true"></i>
+                            <i class="fa fa-twitter social-icons"aria-hidden="true"></i>
                             <span class="sr-only">Twitter</span>
                         </a>
                     </li>
-
-                    <li class="list-inline-item">
+     <li class="list-inline-item social-links">
                         <a target="_blank" href="https://www.youtube.com/">
-                            <i class="fa fa-youtube" aria-hidden="true"></i>
+                            <i class="fa fa-youtube social-icons" aria-hidden="true"></i>
                             <span class="sr-only">YouTube</span>
                         </a>
                     </li>
-                </ul>
-            </div>
-        </div>
+    </ul>
+    <!-- Social buttons -->
 
+  </div>
+  <!-- Footer Elements -->
 
-    </footer>
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2019 Copyright:
+    <a href="https://www.thewho.com/"> thewho.com</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
 
 </body>
 
