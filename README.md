@@ -56,7 +56,9 @@ FEATURES LEFT TO IMPLEMENT
 
 Another feature idea – allow users to get up-to-date news of the band 
 Another feature idea – allow users to see a tour schedule 
-Technologies Used
+
+TEACHNOLOGIES USED
+
 Below is a list of the technologies that I used for this project.
 Bootstrap 
 Font Awesome 
