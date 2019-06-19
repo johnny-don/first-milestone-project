@@ -5,40 +5,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" type="text/css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" type="text/css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
     <link rel="stylesheet" href="../assets/css/style.css" />
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <title>The Who Website</title>
 
 </head>
 
 <body>
 
-
-    <nav class="navbar navbar-expand-sm navbar-menu navbar-inverse">
-        <div class="container-fluid">
-            <div class="row navbar-row">
-                <a class="navbar-brand hvr-glow" href="index.html" target="_blank">
-    <img src="../assets/images/the-who-name-logo.png" class="menu-text hvr-glow" width="90" height="90" padding="5px" alt="Logo">
+    <nav class="navbar navbar-expand-lg navbar-color">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNav" aria-controls="navbarNavDropdown" aria-expanded="true" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+        <a class="navbar-brand hvr-glow" href="index.html">
+    <img src="../assets/images/the-who-name-logo.png" width="100" height="100" padding="5px" alt="Logo">
   </a>
-                <button class="navbar-toggler menu-button" data-toggle="collapse" data-target="#mainNav" aria-controls="navbarNavDropdown">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-                <div class="collapse navbar-collapse" id="mainNav">
-                    <div class="navbar-nav list-inline-block">
+        <div class="collapse navbar-collapse" id="mainNav">
+            <ul class="navbar-nav text-center">
+                <li class="nav-item active">
+                    <a class="nav-link hvr-glow" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link hvr-glow" href="media.html">Media</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link hvr-glow" href="contact.html">Contact</a>
+                </li>
+            </ul>
 
-                        <a class="nav-item nav-link hvr-glow menu-text" href="index.html" target="_blank">Home</a>
-                        <a class="nav-item nav-link hvr-glow menu-text" href="media.html" target="_blank">Media</a>
-                        <a class="nav-item nav-link hvr-glow menu-text" href="contact.html" target="_blank">Contact</a>
-                    </div>
-                </div>
-            </div>
         </div>
     </nav>
-    </div>
+
 
     <section>
         <div class="jumbotron jumbotron-fluid about-section">
@@ -46,7 +51,8 @@
                 <h1 class="display-4 introduction-heading">who are you?</h1>
                 <p class="introduction lead">Few rock & roll bands were riddled with as many contradictions as the Who. All four members had wildly different personalities, as their notorious live performances demonstrated: Keith Moon fell over his drum kit while Pete Townshend leaped
                     into the air with his guitar, spinning his right hand in exaggerated windmills. Vocalist Roger Daltrey prowled the stage as bassist John Entwistle stood silent, the eye of the hurricane. They clashed frequently, but these frictions
-                    resulted in half a century's worth of remarkable music. Although it took a while to find their audience, from the late '60s until the present day, the Who have rivaled the Rolling Stones as a live act and in album sales becoming one of the most celebrated band in the history of Rock and Roll</p>
+                    resulted in half a century's worth of remarkable music. Although it took a while to find their audience, from the late '60s until the present day, the Who have rivaled the Rolling Stones as a live act and in album sales becoming one
+                    of the most celebrated band in the history of Rock and Roll</p>
             </div>
         </div>
 
@@ -113,10 +119,10 @@
 
     <footer class="page-footer font-small">
 
-        <!-- Footer Elements -->
+
         <div class="container">
 
-            <!-- Social buttons -->
+
             <ul class="list-unstyled list-inline text-center">
 
                 <li class="list-inline-item social-links">
@@ -139,19 +145,14 @@
                         </a>
                 </li>
             </ul>
-            <!-- Social buttons -->
-
         </div>
-        <!-- Footer Elements -->
 
-        <!-- Copyright -->
+
+
         <div class="footer-copyright text-center py-3">© 2019 Copyright:
             <a href="https://www.thewho.com/" target="_blank"> thewho.com</a>
         </div>
-        <!-- Copyright -->
-
     </footer>
-
 </body>
 
 

@@ -6,6 +6,7 @@
 
 body {
     background-color: #251717;
+   
 }
 
 /*----------------------------------------------------------Booking Form*/
@@ -28,13 +29,68 @@ body {
     background-color: #e2e6ea;
 }
 
-/*----------------------------------------------------navbar*/
+.navbar-color {
+    background-color: #ff4d4d;
+}
+
+
+.navbar-toggler {
+    background-color: #B0B0D1;
+}
+
+.navbar-toggler-icon {
+    color: #251717;
+}
+
+.nav-link:hover {
+    
+    color: black;
+}
+
+.nav-link {
+    margin: 0 auto;
+      margin: 5px 15px;
+    text-decoration: none;
+    color: #191717;
+    font-family: 'Merriweather', serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    padding: 10px;
+    -moz-transition-duration: 1.5s;
+    -webkit-transition-duration: 1.5s;
+    -o-transition-duration: 1.5s;
+    margin-top: 10%;
+}
+
+.navbar-brand {
+    margin: 0 auto;
+      -moz-transition-duration: 1.5s;
+    -webkit-transition-duration: 1.5s;
+    -o-transition-duration: 1.5s;
+}
+
+button .navbar-toggler-icon {
+    color: white;
+}
+
+@media (max-width: 768px){
+    .navbar-toggler {
+           display:block;
+           vertical-align: :center;
+          
+    }
+    
+   
+}
+/*--------------------------------------------------
 
 
 .navbar {
     width: 100%;
     background-color: #ff4d4d;
     height: 100px;
+    
 }
 
 .navbar-inverse .navbar-nav .nav-link  {
@@ -55,10 +111,7 @@ body {
     width: 100%;
 }
 
-.menu-button {
- 
-    float: right;
-}
+
 
 .logo-nav {
     position:relative;
@@ -94,7 +147,7 @@ body {
     
 }
 
-
+-------------------------------------------------------*/
 
 
 
@@ -192,13 +245,13 @@ body {
 /*----------------------------------------------------------jumbotron*/
 
 .jumbotron {
-    ;
+  
     -webkit-background-size: 100% 100%;
     -moz-background-size: 100% 100%;
     -o-background-size: 100% 100%;
     background-size: 100% 100%;
     background-color: #B0B0D1;
-
+   
 }
 
 .introduction {
@@ -397,21 +450,30 @@ body {
     
 }
 
-@media (max-width: 575.98px) { ... }
+@media (max-width: 575.98px) {
+
+}
 
 // Small devices (landscape phones, less than 768px)
 
 @media (max-width: 767.98px) { 
     .photo-gallery {
-        display: flex;
+        display: block;
         width: 100px;
-        
-        
+        }
+/*--------------------------------        
+    .navbar-brand .menu-text {
+        display: none;
     }
     
-
-    
-}
+    .navbar-menu {
+        height: 200px;
+    }
+    .navbar-nav {
+        height: 200px;
+    }
+}    
+----------------*/
 
 @media (max-width: 1266px) {
     .spare-playlist {
@@ -440,3 +502,16 @@ body {
 // Large devices (desktops, less than 1200px)
 @media (max-width: 1199.98px) { ... }
 
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+img {
+ margin: 5px;
+ transition: all 2s;
+}
+img:hover {
+ transform: scale (1.1);
+}

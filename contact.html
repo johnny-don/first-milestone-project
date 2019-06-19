@@ -5,37 +5,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" type="text/css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <title>The Who Website</title>
+
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-sm navbar-menu navbar-inverse">
-        <div class="container-fluid">
-          <div class="row navbar-row">
-  <a class="navbar-brand hvr-glow" href="index.html">
-    <img src="../assets/images/the-who-name-logo.png" class="menu-text hvr-glow" width="90" height="90" padding="5px" alt="Logo">
+
+    <nav class="navbar navbar-expand-lg navbar-color">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNav" aria-controls="navbarNavDropdown" aria-expanded="true" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+        <a class="navbar-brand hvr-glow" href="index.html">
+    <img src="../assets/images/the-who-name-logo.png" width="100" height="100" padding="5px" alt="Logo">
   </a>
-            <button class="navbar-toggler menu-button" data-toggle="collapse" data-target="#navbarNavDropdown"  aria-
-              controls="navbarNavDropdown">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <div class="navbar-nav list-inline-block">
-                                   
-                    <a class="nav-item nav-link hvr-glow menu-text" href="index.html">Home</a>
-                    <a class="nav-item nav-link hvr-glow menu-text" href="media.html">Media</a>
-                    <a class="nav-item nav-link hvr-glow menu-text" href="contact.html">Contact</a>
-                </div>
-</div>
-            </div>
+        <div class="collapse navbar-collapse" id="mainNav">
+            <ul class="navbar-nav text-center">
+                <li class="nav-item active">
+                    <a class="nav-link hvr-glow" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link hvr-glow" href="media.html">Media</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link hvr-glow" href="contact.html">Contact</a>
+                </li>
+            </ul>
+
         </div>
     </nav>
-    </div>
+
+
 
 
     <section class="container-fluid">
@@ -111,8 +120,8 @@
                         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                     </div>
                     <div class="button-holder text-center">
-                    <button type="submit" class="btn btn-light blurb-button">Send</button>
-                    </div> 
+                        <button type="submit" class="btn btn-light blurb-button">Submit</button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -124,46 +133,46 @@
 
     </section>
 
-<footer class="page-footer font-small">
+    <footer class="page-footer font-small">
 
-  <!-- Footer Elements -->
-  <div class="container">
+        <!-- Footer Elements -->
+        <div class="container">
 
-    <!-- Social buttons -->
-    <ul class="list-unstyled list-inline text-center">
-    
-        <li class="list-inline-item social-links">
-                        <a target="_blank" href="https://www.facebook.com/">
+            <!-- Social buttons -->
+            <ul class="list-unstyled list-inline text-center">
+
+                <li class="list-inline-item social-links">
+                    <a target="_blank" href="https://www.facebook.com/">
                             <i class="fa fa-facebook social-icons"aria-hidden="true"></i>
                             <span class="sr-only">Facebook</span>
                         </a>
-                    </li>
-    
-        <li class="list-inline-item social-links">
-                        <a target="_blank" href="https://twitter.com/">
+                </li>
+
+                <li class="list-inline-item social-links">
+                    <a target="_blank" href="https://twitter.com/">
                             <i class="fa fa-twitter social-icons"aria-hidden="true"></i>
                             <span class="sr-only">Twitter</span>
                         </a>
-                    </li>
-     <li class="list-inline-item social-links">
-                        <a target="_blank" href="https://www.youtube.com/">
+                </li>
+                <li class="list-inline-item social-links">
+                    <a target="_blank" href="https://www.youtube.com/">
                             <i class="fa fa-youtube social-icons" aria-hidden="true"></i>
                             <span class="sr-only">YouTube</span>
                         </a>
-                    </li>
-    </ul>
-    <!-- Social buttons -->
+                </li>
+            </ul>
+            <!-- Social buttons -->
 
-  </div>
-  <!-- Footer Elements -->
+        </div>
+        <!-- Footer Elements -->
 
-  <!-- Copyright -->
-  <div class="footer-copyright text-center py-3">© 2019 Copyright:
-    <a href="https://www.thewho.com/"> thewho.com</a>
-  </div>
-  <!-- Copyright -->
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2019 Copyright:
+            <a href="https://www.thewho.com/"> thewho.com</a>
+        </div>
+        <!-- Copyright -->
 
-</footer>
+    </footer>
 
 </body>
 
